@@ -50,7 +50,7 @@ class CharsValidationPage(PageFactory):
         """
         self.check_input_btn.click()
 
-    def check_validation_message(self):
+    def get_validation_message(self):
         """
         Retrieves the validation result message from the page.
 
