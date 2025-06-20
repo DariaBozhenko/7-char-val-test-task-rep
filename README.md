@@ -44,5 +44,6 @@ Supported browsers: chrome (default), firefox.
 On test failure, a screenshot is automatically saved in the screenshots/ directory with a timestamp and test ID.
 
 🙋‍♀️ Author 
+
 Created by a passionate QA who enjoys clean architecture, readable tests, and scalable frameworks.
 
