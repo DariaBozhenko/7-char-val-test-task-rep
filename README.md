@@ -6,8 +6,8 @@ This project is a test automation framework built with Selenium, Pytest, and Pyt
 It verifies input validation logic for a form that accepts exactly 7 characters using various character combinations.
 
 📁 Project Structure
-
-`├── conftest.py               # Global fixtures and environment setup
+<pre> <code>
+├── conftest.py               # Global fixtures and environment setup
 ├── core/
 │   └── pages/
 │       └── charvalidationpage.py  # Page Object for the validation page
@@ -15,7 +15,7 @@ It verifies input validation logic for a form that accepts exactly 7 characters 
 │   └── test_char_validation.py    # Parametrized test cases
 ├── screenshots/             # Screenshots saved on test failures
 ├── requirements.txt         # List of required dependencies
-└── README.md                # You're here!`
+└── README.md                # You're here!</code> </pre>
 
 🧰 Technologies Used
  - Python 3.9.6
@@ -26,12 +26,17 @@ It verifies input validation logic for a form that accepts exactly 7 characters 
 
 ▶️ How to Run the Tests
 1. ✅ Install Dependencies
-`pip install -r requirements.txt`
+
+<pre> <code> pip install -r requirements.txt </code></pre>
+
 2. 🧪 Run Tests
-`pytest tests/`
+
+<pre> <code>pytest tests/</code></pre>
+
 3. 🌐 Run in a Specific Browser
 
-`pytest tests/ --browser=firefox`
+<pre> <code> pytest tests/ --browser=firefox </code></pre>
+
 Supported browsers: chrome (default), firefox.
 
 📸 Screenshots on Failure
@@ -40,7 +45,7 @@ On test failure, a screenshot is automatically saved in the screenshots/ directo
 📦 Example Test Case
 Each test inputs a string into the form and verifies if the validation logic correctly accepts or rejects it based on defined criteria:
 
-`("abc123*", "Valid Value", "exactly_7_chars_all_allowed_types_no_uppercase")`
+ <code><pre>("abc123*", "Valid Value", "exactly_7_chars_all_allowed_types_no_uppercase") </code></pre>
 
 🙋‍♀️ Author
 Created by a passionate QA automation engineer who enjoys clean architecture, readable tests, and scalable frameworks.
