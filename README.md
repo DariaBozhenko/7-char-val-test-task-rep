@@ -43,12 +43,6 @@ Supported browsers: chrome (default), firefox.
 
 On test failure, a screenshot is automatically saved in the screenshots/ directory with a timestamp and test ID.
 
-📦 Example Test Case
-
-Each test inputs a string into the form and verifies if the validation logic correctly accepts or rejects it based on defined criteria:
-
- <code><pre>("abc123*", "Valid Value", "exactly_7_chars_all_allowed_types_no_uppercase") </code></pre>
-
 🙋‍♀️ Author 
-Created by a passionate QA automation engineer who enjoys clean architecture, readable tests, and scalable frameworks.
+Created by a passionate QA who enjoys clean architecture, readable tests, and scalable frameworks.
 
